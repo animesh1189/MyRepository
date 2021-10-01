@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testng API Suite">
+    <test name="BasicAPI" preserve-order="true">
+        <classes>
+            <class name="common.Selenium_Practice"></class>
+        <!--    <class name="ServiceRun.WebServicesForSuggestions"></class> -->
+        </classes>
+
+    </test>
+
+<!--Need to run batch for getting contact suggestions and setting up the mutual connections-->
+
+    <!--<test name="TestCasesForContactSuggestions" preserve-order="true">
+        <classes>
+            <class name="ServiceRun.WebServicesForSuggestions"></class>
+        </classes>
+
+    </test>-->
+
+</suite>
+
+
